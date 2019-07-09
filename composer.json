@@ -1,7 +1,8 @@
 {
     "name": "pavlovich/async",
     "description": "Extension for RabbitMQ and Multi curl. Yii framework",
-    "type": "library",
+    "keywords": ["multi curl", "rabbitmq", "multi rabbit", "RabbitMQ Yii2", "Yii2 multi curl"],
+    "type": "yii2-extension",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +11,6 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
         "ext-amqp": "*",
         "guzzlehttp/guzzle": "~6.0"
     }
