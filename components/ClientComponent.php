@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: oleksandr
- * Date: 13.02.19
- * Time: 12:55
- */
 
-namespace async\components;
+namespace pavlovich\async\components;
 
 use yii\base\Component;
 use GuzzleHttp\{Client, Pool};

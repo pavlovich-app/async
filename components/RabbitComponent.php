@@ -1,9 +1,5 @@
 <?php
-/**
- * User: aleksandr.pavlovich
- * Date: 02.11.18
- */
-namespace async\components;
+namespace pavlovich\async\components;
 
 use yii\base\Component;
 
