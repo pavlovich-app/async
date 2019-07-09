@@ -1,0 +1,17 @@
+{
+    "name": "pavlov/async",
+    "description": "Extension for RabbitMQ and Multi curl. Yii framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksandr Pavlovich",
+            "email": "oleksandr@7rl.info"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-amqp": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
