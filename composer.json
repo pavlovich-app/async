@@ -1,5 +1,5 @@
 {
-    "name": "pavlov/async",
+    "name": "pavlovich/async",
     "description": "Extension for RabbitMQ and Multi curl. Yii framework",
     "type": "library",
     "license": "MIT",
