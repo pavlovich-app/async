@@ -4,6 +4,7 @@
     "keywords": ["multi curl", "rabbitmq", "multi rabbit", "RabbitMQ Yii2", "Yii2 multi curl"],
     "type": "yii2-extension",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Oleksandr Pavlovich",
