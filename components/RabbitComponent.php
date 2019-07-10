@@ -1,5 +1,5 @@
 <?php
-namespace pavlovich\async\components;
+namespace components;
 
 use yii\base\Component;
 

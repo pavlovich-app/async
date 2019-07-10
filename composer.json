@@ -14,5 +14,11 @@
     "require": {
         "ext-amqp": "*",
         "guzzlehttp/guzzle": "~6.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "async\\": ""
+        }
     }
 }
