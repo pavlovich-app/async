@@ -11,6 +11,7 @@
             "email": "oleksandr@7rl.info"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "ext-amqp": "*",
         "guzzlehttp/guzzle": "~6.0"

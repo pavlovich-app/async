@@ -1,6 +1,6 @@
 <?php
 
-namespace components;
+namespace pavlovich\async\components;
 
 use yii\base\Component;
 use GuzzleHttp\{Client, Pool};
