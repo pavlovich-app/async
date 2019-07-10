@@ -1,6 +1,6 @@
 CONFIGURATION RABBITMQ AND MULTI CURL COMPONENTS IN YII2 APPLICATION
 =====================================================================
-```
+```php
 'components' => [
     'rabbit' => require __DIR__ . '/rabbit.php',
     'client' => require __DIR__ . '/client.php',
@@ -9,7 +9,7 @@ CONFIGURATION RABBITMQ AND MULTI CURL COMPONENTS IN YII2 APPLICATION
 
 RabbitMQ file rabbit.php
 =========================
-````
+````php
 <?php
 
 return [
@@ -104,7 +104,7 @@ return [
 
 RabbitMQ file client.php
 =========================
-````
+````php
 <?php return [ 'class' => pavlovich\async\components\ClientComponent::class ];
 ````
 
@@ -112,14 +112,14 @@ RabbitMQ file client.php
 Using RabbitMQ queues. Send message
 ==================================
 You can send message from anywhere in your application:
-````
+````php
 \Yii::$app->rabbit->sendMessage([ 'project_id' => 1, 'count' => 10] 'm_exchanger');
 ````
 
 
 Consumer example
 ====================
-````
+````php
 <?php
 namespace console\consumers;
 
@@ -167,7 +167,7 @@ class CloudConsumer
 
 Running Consumer example
 ========================
-````
+````php
 try {
     \Yii::$app->rabbit->consume('hub_queue', function ($msg, $queue) {
         
@@ -183,7 +183,7 @@ try {
 
 Asynchronous request sending. Asynchronous response
 ==============================
-````
+````php
 foreach($values as $val){
     $requests[] = ['url' => $val['url'], 'params' => $val['params'] ];
 }
